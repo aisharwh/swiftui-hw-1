@@ -69,52 +69,51 @@ struct ContentView: View {
                     Text("22°").padding(6)
                 }
               
-                VStack{
+                VStack (alignment: .leading){
                     HStack{
                         Text("Wednesday")
-                        Image(systemName: "colud.sun.rain.fill")
-                            .padding()
+                        Image(systemName: "cloud.sun.rain.fill")
+                        .padding(.horizontal, 60)
                         Text("29")
                         Text("24")
                     }
                     
                     HStack{
                         Text("Thursday")
-                        Image(systemName: "colud.sun.rain.fill").padding()
+                        Image(systemName: "cloud.sun.rain.fill")
+                            .padding(.horizontal, 69)
                         Text("29")
                         Text("24")
                     }
                    
                     HStack{
                         Text("Friday")
-                        Image(systemName: "colud.sun.rain.fill").padding()
+                        Image(systemName: "cloud.sun.rain.fill")
+                            .padding(.horizontal, 82)
                         Text("29")
                         Text("24")
                     }
 
                     HStack{
                         Text("Saturday")
-                        Image(systemName: "colud.sun.rain.fill").padding()
+                        Image(systemName: "cloud.sun.rain.fill")
+                            .padding(.horizontal, 71)
                         Text("29")
                         Text("24")
                     }
 
                     HStack{
                         Text("Sunday")
-                        Image(systemName: "colud.sun.rain.fill").padding()
+                        Image(systemName: "cloud.sun.rain.fill")
+                            .padding(.horizontal, 77)
                         Text("29")
                         Text("24")
                     }
-
                     
-                }
+                }.padding(2)
                 
             }
-            
-            
-            
-           
-            
+          
         } .foregroundColor(.white)
     }
 }
